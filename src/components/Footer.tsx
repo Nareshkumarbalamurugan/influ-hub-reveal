@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <footer className="bg-black/30 backdrop-blur-sm border-t border-white/10 py-8 px-4">
@@ -9,7 +8,7 @@ const Footer = () => {
           <a href="#" className="hover:text-white transition-colors">Privacy</a>
         </div>
         <div className="text-center text-gray-500 text-sm mt-4">
-          © 2024 YourApp. All rights reserved.
+          © 2024 INFAN. All rights reserved.
         </div>
       </div>
     </footer>

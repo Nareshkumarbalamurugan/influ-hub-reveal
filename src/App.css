@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+@keyframes logo-slide-in {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-logo {
+  animation: logo-slide-in 0.7s cubic-bezier(0.23, 1, 0.32, 1);
+  display: inline-block;
+}

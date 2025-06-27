@@ -1,11 +1,10 @@
-
 import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
   return (
     <nav className="flex items-center justify-between p-4 md:p-6 bg-black/20 backdrop-blur-sm border-b border-white/10">
-      <div className="text-white text-xl md:text-2xl font-bold">
-        YourApp
+      <div className="text-white text-xl md:text-2xl font-bold animate-logo">
+        INFAN
       </div>
       <div className="flex items-center gap-3">
         <Button 
