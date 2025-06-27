@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Lock, Chat } from "lucide-react";
+import { Lock, Cat } from "lucide-react";
 
 interface InfluencerCardProps {
   name: string;
@@ -58,7 +58,7 @@ const InfluencerCard = ({ name, bio, avatar, coverImage }: InfluencerCardProps) 
           variant="outline"
           className="border-gray-600 text-white hover:bg-gray-700 flex items-center gap-2"
         >
-          <Chat className="w-4 h-4" />
+          <Cat className="w-4 h-4" />
           Chat
         </Button>
       </div>
