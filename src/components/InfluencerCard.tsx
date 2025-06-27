@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Lock, Cat } from "lucide-react";
 
@@ -56,7 +55,7 @@ const InfluencerCard = ({ name, bio, avatar, coverImage }: InfluencerCardProps) 
         </Button>
         <Button 
           variant="outline"
-          className="border-gray-600 text-white hover:bg-gray-700 flex items-center gap-2"
+          className="border-blue-500 text-blue-400 bg-gray-900/50 hover:bg-gray-700 flex items-center gap-2"
         >
           <Cat className="w-4 h-4" />
           Chat
